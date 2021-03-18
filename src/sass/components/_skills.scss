@@ -1,0 +1,54 @@
+.skills-header {
+  text-transform: uppercase;
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.8em;
+  margin: 0.5em 0;
+}
+
+.skill {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  p {
+    grid-column: 1 / 2;
+    color: $section-title;
+    font-size: 1rem;
+  }
+}
+
+.bar {
+  grid-column: 2 / span 3;
+  background: #c4c4c4;
+  width: 90%;
+  height: 10px;
+  border-radius: 12px;
+  .progress {
+    background: $main-accent;
+    border-radius: inherit;
+    width: 50%;
+    height: 10px;
+  }
+}
+
+.skill-html .progress {
+  width: 95%;
+}
+
+.skill-css .progress {
+  width: 90%;
+}
+
+.skill-scss .progress {
+  width: 80%;
+}
+
+.skill-js .progress {
+  width: 80%;
+}
+
+.skill-react .progress {
+  width: 70%;
+}

@@ -1,0 +1,131 @@
+.filter-wrapper {
+  @extend %section-base;
+  margin-bottom: 1rem;
+}
+
+.project-filter--header {
+  margin-bottom: 0.6rem;
+  color: $section-title;
+  font-size: 1.6rem;
+}
+
+.filter-btn {
+  font-family: $alt-font;
+  margin: 0 15px 0 0;
+  border: thin solid $section-title;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 12px;
+  background: #fff;
+  font-size: 1.1rem;
+}
+
+.active {
+  background: $main-accent;
+  border: none;
+  color: white;
+}
+// Individual Project styles
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 12px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+.project {
+  position: relative;
+  height: 500px;
+  width: 292px;
+  padding: 1em;
+  border-radius: 12px;
+  grid-column: span 1;
+  background: #fff;
+  ul {
+    display: flex;
+    margin-top: 0.5rem;
+  }
+  li {
+    list-style-type: none;
+    color: $section-title;
+    margin: 0 0.25rem;
+  }
+  p {
+    color: $section-text;
+    margin-bottom: 1rem;
+  }
+}
+
+.img-wrapper {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 12px;
+}
+
+#edie,
+#checkout,
+#gallery,
+#blog,
+#crew,
+#consult,
+#creatives {
+  background-size: cover;
+}
+
+#creatives {
+  background-position: top;
+}
+
+.project-title {
+  font-size: 1.6rem;
+  color: #333333;
+  margin: 1rem 0;
+}
+
+.demo-wrapper {
+  position: absolute;
+  bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-wrapper > a {
+  display: flex;
+  height: 50px;
+  width: 125px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.demo-wrapper .demo {
+  margin-right: 10px;
+  background: $main-accent;
+  border: 1px solid $main-accent;
+  color: #ffffff;
+}
+
+.demo-wrapper .demo:hover {
+  background: #ffffff;
+  color: $main-accent;
+}
+
+.demo-wrapper .code {
+  border: 1px solid $main-accent;
+  color: $main-accent;
+}
+
+.demo-wrapper .code:hover {
+  background: $main-accent;
+  color: #ffffff;
+}

@@ -1,0 +1,20 @@
+.hobby-wrapper {
+  margin-top: 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 6px;
+}
+
+.hobby-img {
+  width: 275px;
+  height: 125px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+}
+
+h2.hobby-title {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 1.2em auto 0.5em auto;
+}

@@ -7,8 +7,10 @@ const Certificate = ({
   <div className="cert">
     <div className="title-logo--wrapper">
       <img src={imgSrc} alt="agency-logo" />
-      <p className="issue-date">{issueDate}</p>
-      <h2>{certTitle}</h2>
+      <div className="cert-issue--wrapper">
+        <p className="issue-date">{issueDate}</p>
+        <h2>{certTitle}</h2>
+      </div>
     </div>
     <a
       className="credential-link"

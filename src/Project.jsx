@@ -3,7 +3,7 @@
 import React from 'react';
 
 function Project({
-  tagArr, imgSrc, title, summary, demo, code,
+  tagArr, title, summary, demo, code, id, imgSrc,
 }) {
   const tags = tagArr.map((tag) => (
     <li key={tag}>
@@ -14,26 +14,34 @@ function Project({
 
   return (
     <div className="project">
-      <img src={imgSrc} alt="project-screenshot" />
+      <div
+        id={id}
+        className="img-wrapper"
+        style={{
+          backgroundImage: `url(${imgSrc})`,
+        }}
+      />
       <ul className="tags">{ tags }</ul>
       <h1 className="project-title">{title}</h1>
       <p>{ summary }</p>
-      <a
-        className="demo"
-        href={demo}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Demo
-      </a>
-      <a
-        className="code"
-        href={code}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Code
-      </a>
+      <div className="demo-wrapper">
+        <a
+          className="demo"
+          href={demo}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Demo
+        </a>
+        <a
+          className="code"
+          href={code}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Code
+        </a>
+      </div>
     </div>
   );
 }

@@ -5,7 +5,13 @@ const Hobby = ({
   imgSrc, title, summary, credit,
 }) => (
   <div className="hobby">
-    <img src={imgSrc} alt={credit} />
+    <div
+      className="hobby-img"
+      style={{
+        backgroundImage: `url(${imgSrc})`,
+      }}
+      alt={credit}
+    />
     <h2 className="hobby-title">{title}</h2>
     <p>{summary}</p>
   </div>

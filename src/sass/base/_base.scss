@@ -1,0 +1,64 @@
+$font-stack: "Montserrat", sans-serif;
+$alt-font: "Lato", sans-serif;
+$bg-main: #f2f2f2;
+$section-title: #4f4f4f;
+$section-text: #828282;
+$section-background: #ffffff;
+$section-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+  rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+$main-accent: #2f80ed;
+$project-title: #333333;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack;
+  font-size: 0.9rem;
+  background: $bg-main;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1040px;
+  margin: 2em auto;
+}
+
+%section-base {
+  background: $section-background;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: $section-shadow;
+  padding: 1.2rem;
+  margin: 0.6em auto;
+}
+
+.header,
+.hobbies,
+.skills,
+.certs {
+  @extend %section-base;
+  h1 {
+    font-size: 1.6rem;
+    color: $section-title;
+  }
+  h2 {
+    font-size: 0.9rem;
+    color: $section-text;
+  }
+  p {
+    color: $section-text;
+  }
+  img {
+    width: 200px;
+    height: auto;
+  }
+  ul li {
+    list-style-type: none;
+  }
+}

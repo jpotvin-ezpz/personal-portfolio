@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+}
+
+.profile-pic {
+  border-radius: 12px;
+}
+
+.info-summary {
+  margin-left: 4em;
+}
+
+.personal-info--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-resume {
+  margin-bottom: 0.2em;
+  a {
+    display: flex;
+    align-items: center;
+    color: $section-title;
+    text-decoration: none;
+  }
+}
+
+a:hover {
+  color: $main-accent;
+}
+
+.contact-info > * {
+  font-style: normal;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: $section-title;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info > *:hover {
+  color: $main-accent;
+}
+
+.social-links {
+  margin: 0 10px;
+}
+
+.summary {
+  margin-top: 0.4em;
+}

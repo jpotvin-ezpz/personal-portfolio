@@ -1,7 +1,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/index.css';
 import Header from './Header';
 import Skills from './Skills';
 import ProjectsFilter from './ProjectsFilter';
@@ -11,7 +11,7 @@ import Hobbies from './Hobbies';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <Header />
         <Skills />
         <ProjectsFilter />

@@ -1,28 +1,43 @@
 /* eslint-disable max-len */
 import React from 'react';
+import profile from './pics/profile.jpg';
+import file from './documents/Frontend+Developer.pdf';
 
 const Header = () => (
   <div className="header">
-    <div className="img-wrapper">
-      <img src="src/pics/arms-crossed-profile-pic (copy).jpg" alt="jacob" />
-    </div>
-    <div className="personal-info--wrapper">
-      <div className="name-resume">
-        <h1>Jacob Potvin</h1>
-        <h2>Frontend Developer</h2>
-        <a href="./documents/Frontend+Developer.pdf" type="application/pdf" download>Resume</a>
+    <img className="profile-pic" src={profile} alt="jacob" />
+    <div className="info-summary">
+      <div className="personal-info--wrapper">
+        <div className="name-resume">
+          <h1>Jacob Potvin</h1>
+          <h2>Frontend Developer</h2>
+          <a href={file} type="application/pdf" download>
+            Resume
+            <span className="material-icons">
+              download
+            </span>
+          </a>
+        </div>
+        <div className="contact-info">
+          <address href="mailto:jpotvin@pm.com">
+            <span className="material-icons social-links"> email </span>
+            jpotvin@pm.me
+          </address>
+          <a href="https://www.linkedin.com/in/jpotvin12/" target="_blank" rel="noreferrer">
+            <span className="material-icons social-links">
+              group
+            </span>
+            LinkedIn
+          </a>
+        </div>
       </div>
-      <div className="contact-info">
-        <address href="mailto:jpotvin@pm.com">jpotvin@pm.me</address>
-        <a href="https://www.linkedin.com/in/jpotvin12/" target="_blank" rel="noreferrer">LinkedIn</a>
-      </div>
+      <p className="summary">
+        Self-taught and self-starting developer who is is passionate about bringing meaningful visions to life and translating the ideas from your head to apps on the web.
+      </p>
+      <p className="summary">
+        I believe there is no better competition than yourself and racing to beat yesterday is all you need to improve.
+      </p>
     </div>
-    <p className="summary">
-      Self-taught and self-starting developer who is is passionate about bringing meaningful visions to life and translating the ideas from your head to apps on the web.
-    </p>
-    <p className="summary">
-      I believe there is no better competition than yourself and racing to beat yesterday is all you need to improve.
-    </p>
   </div>
 );
 
