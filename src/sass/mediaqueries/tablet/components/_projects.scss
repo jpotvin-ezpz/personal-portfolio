@@ -1,0 +1,5 @@
+.projects-wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(292px, 1fr));
+  width: 90%;
+  justify-items: center;
+}

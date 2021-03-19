@@ -1,0 +1,23 @@
+.hobby-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hobbies-title {
+  margin-left: 0.5em;
+}
+
+.hobby-img {
+  width: 500px;
+}
+
+h2.hobby-title {
+  margin: 0.2em auto 0 0.5rem;
+}
+
+.hobby {
+  p {
+    margin: 0 auto 2em 0.5rem;
+  }
+}

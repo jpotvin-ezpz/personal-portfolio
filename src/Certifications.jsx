@@ -1,7 +1,7 @@
 import React from 'react';
 import Certificate from './Certificate';
-import fcclogo from './pics/fcc-logo.jpeg';
-import dev from './pics/devchallenges.png';
+import fcclogo from './pics/fcc-logo.webp';
+import dev from './pics/devchallenges.webp';
 
 const Certifications = () => (
   <div className="certs">

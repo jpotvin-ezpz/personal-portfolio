@@ -1,0 +1,11 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 599px) {
+  @import "mobile/base/base", "mobile/components/header",
+    "mobile/components/skills", "mobile/components/hobbies",
+    "mobile/components/projects", "mobile/components/certs";
+}
+
+@media only Screen and (min-device-width: 600px) and (max-device-width: 899px) {
+  @import "tablet/base/base", "tablet/components/certs",
+    "tablet/components/header", "tablet/components/hobbies",
+    "tablet/components/projects", "tablet/components/skills";
+}

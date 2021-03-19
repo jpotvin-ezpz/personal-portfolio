@@ -1,0 +1,16 @@
+.skills-header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.skills-list {
+  grid-template-columns: 1fr;
+  grid-gap: 0.9em;
+  width: 90%;
+  margin: 1em auto;
+}
+.skill {
+  p {
+    width: 9ch;
+  }
+}

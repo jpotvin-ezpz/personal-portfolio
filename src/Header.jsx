@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
-import profile from './pics/profile.jpg';
+import profile from './pics/profile.webp';
 import file from './documents/Frontend+Developer.pdf';
 
 const Header = () => (

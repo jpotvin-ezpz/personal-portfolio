@@ -1,0 +1,25 @@
+.header {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img.profile-pic {
+  width: 90%;
+  margin: 0.8em auto;
+}
+.info-summary {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 1em auto;
+}
+
+.personal-info--wrapper {
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+
+.social-links {
+  margin: 0 0 0.4em 0;
+}

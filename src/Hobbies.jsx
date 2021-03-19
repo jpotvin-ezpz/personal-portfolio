@@ -1,8 +1,8 @@
 import React from 'react';
 import Hobby from './Hobby';
-import running from './pics/sage-friedman.jpg';
-import cooking from './pics/sandra-seitamaa.jpg';
-import reading from './pics/j-zamora.jpg';
+import running from './pics/sage-friedman.webp';
+import cooking from './pics/sandra-seitamaa.webp';
+import reading from './pics/j-zamora.webp';
 
 function Hobbies() {
   return (

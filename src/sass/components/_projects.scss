@@ -10,6 +10,7 @@
 }
 
 .filter-btn {
+  cursor: pointer;
   font-family: $alt-font;
   margin: 0 15px 0 0;
   border: thin solid $section-title;
@@ -18,6 +19,13 @@
   border-radius: 12px;
   background: #fff;
   font-size: 1.1rem;
+  transition: all 0.5s ease;
+}
+
+.filter-btn:hover {
+  background: $main-accent;
+  border: none;
+  color: white;
 }
 
 .active {

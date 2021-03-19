@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import Header from './Header';
 import Skills from './Skills';
-import ProjectsFilter from './ProjectsFilter';
+import ProjectsList from './newProjectsList';
 import Certifications from './Certifications';
 import Hobbies from './Hobbies';
 
@@ -14,7 +14,7 @@ class App extends React.Component {
       <div className="main">
         <Header />
         <Skills />
-        <ProjectsFilter />
+        <ProjectsList />
         <Certifications />
         <Hobbies />
       </div>
