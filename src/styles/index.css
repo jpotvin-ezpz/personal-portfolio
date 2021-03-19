@@ -379,7 +379,7 @@ h2.hobby-title {
 }
 
 .skill-react .progress {
-  width: 70%;
+  width: 55%;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 599px) {
