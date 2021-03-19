@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6196cf7f.chunk.css",
+    "main.js": "/static/js/main.85dea1f0.chunk.js",
+    "main.js.map": "/static/js/main.85dea1f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.090d88c3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.090d88c3.js.map",
+    "static/js/2.6202d55b.chunk.js": "/static/js/2.6202d55b.chunk.js",
+    "static/js/2.6202d55b.chunk.js.map": "/static/js/2.6202d55b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6196cf7f.chunk.css.map": "/static/css/main.6196cf7f.chunk.css.map",
+    "static/js/2.6202d55b.chunk.js.LICENSE.txt": "/static/js/2.6202d55b.chunk.js.LICENSE.txt",
+    "static/media/Frontend+Developer.390176b3.pdf": "/static/media/Frontend+Developer.390176b3.pdf",
+    "static/media/devchallenges.557e2c80.webp": "/static/media/devchallenges.557e2c80.webp",
+    "static/media/fcc-logo.e56c4415.webp": "/static/media/fcc-logo.e56c4415.webp",
+    "static/media/j-zamora.d67965e5.webp": "/static/media/j-zamora.d67965e5.webp",
+    "static/media/profile.49af0114.webp": "/static/media/profile.49af0114.webp",
+    "static/media/sage-friedman.bad0432c.webp": "/static/media/sage-friedman.bad0432c.webp",
+    "static/media/sandra-seitamaa.b1119fc9.webp": "/static/media/sandra-seitamaa.b1119fc9.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.090d88c3.js",
+    "static/js/2.6202d55b.chunk.js",
+    "static/css/main.6196cf7f.chunk.css",
+    "static/js/main.85dea1f0.chunk.js"
+  ]
+}
