@@ -32,7 +32,7 @@ const Header = () => (
         </div>
       </div>
       <p className="summary">
-        Self-taught and self-starting developer who is is passionate about bringing meaningful visions to life and translating the ideas from your head to apps on the web.
+        Self-taught and self-starting developer passionate about bringing meaningful visions to life and translating ideas from the head to apps on the web.
       </p>
       <p className="summary">
         I believe there is no better competition than yourself and racing to beat yesterday is all you need to improve.
