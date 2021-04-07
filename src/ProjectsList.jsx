@@ -14,6 +14,7 @@ import crew from './pics/creative-crew.png';
 import creatives from './pics/creatives-website.png';
 import pomodoro from './pics/pomodoro.png';
 import calculator from './pics/calculator.png';
+import windbnb from './pics/windbnb.png';
 
 function ProjectsList() {
   const [project, setProjects] = useState([
@@ -39,6 +40,15 @@ function ProjectsList() {
         </div>
       </div>
       <div className="projects-wrapper">
+        <Project
+          id="windbnb"
+          imgSrc={windbnb}
+          tagArr={['html', 'css', 'sass', 'react']}
+          title="Windbnb Project"
+          summary="A website deployed through surge.sh with a filterable list of rentals and a UI that follows the amazing airbnb design."
+          demo="https://vulgar-word.surge.sh/"
+          code="https://github.com/jpotvin-ezpz/windbnb"
+        />
         <Project
           id="pomodoro"
           imgSrc={pomodoro}
