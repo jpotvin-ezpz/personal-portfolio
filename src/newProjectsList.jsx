@@ -6,6 +6,15 @@ import { useState, useEffect, React } from 'react';
 function ProjectsList() {
   const [projects, setProjects] = useState([
     {
+      title: 'Airbnb Clone',
+      summary: 'A website deployed through surge.sh with a filterable list of rentals and a UI that follows the amazing airbnb design.',
+      demo: 'https://vulgar-word.surge.sh/',
+      code: 'https://github.com/jpotvin-ezpz/windbnb',
+      imgSrc: './pics/windbnb.webp',
+      tagArr: ['html', 'css', 'sass', 'react'],
+      id: 'windbnb',
+    },
+    {
       title: 'Pomodoro Timer',
       summary: 'A customizable 25/5 timer built as a submission to FreeCodeCamp as part of the frontend libraries certificate.',
       demo: 'https://codepen.io/jpotvin/pen/qBqgqdw',
