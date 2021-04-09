@@ -6,6 +6,15 @@ import { useState, useEffect, React } from 'react';
 function ProjectsList() {
   const [projects, setProjects] = useState([
     {
+      title: 'Another Todo List',
+      summary: 'I know everyone does this, but I was curious to see how I could make it work. It was relatively easy, I made it more interesting by practicing my project organization skills and making my code as DRY as possible.',
+      demo: 'https://delirious-disgust.surge.sh/',
+      code: 'https://github.com/jpotvin-ezpz/todo-app',
+      imgSrc: './pics/todo-app.webp',
+      tagArr: ['html', 'css', 'sass', 'react'],
+      id: 'todo-app',
+    },
+    {
       title: 'Airbnb Clone',
       summary: 'A website deployed through surge.sh with a filterable list of rentals and a UI that follows the amazing airbnb design.',
       demo: 'https://vulgar-word.surge.sh/',
