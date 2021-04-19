@@ -6,6 +6,15 @@ import { useState, useEffect, React } from 'react';
 function ProjectsList() {
   const [projects, setProjects] = useState([
     {
+      title: 'Country Quiz',
+      summary: 'Quiz app using the https://restcountries.eu/ API',
+      demo: 'https://sable-badge.surge.sh/',
+      code: 'https://github.com/jpotvin-ezpz/quiz-app',
+      imgSrc: './pics/country-quiz.webp',
+      tagArr: ['html', 'css', 'sass', 'react'],
+      id: 'country-quiz',
+    },
+    {
       title: 'Another Todo List',
       summary: 'I know everyone does this, but I was curious to see how I could make it work. It was relatively easy, I made it more interesting by practicing my project organization skills and making my code as DRY as possible.',
       demo: 'https://delirious-disgust.surge.sh/',
