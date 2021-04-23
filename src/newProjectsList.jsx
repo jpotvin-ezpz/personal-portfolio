@@ -6,6 +6,14 @@ import { useState, useEffect, React } from 'react';
 function ProjectsList() {
   const [projects, setProjects] = useState([
     {
+      title: 'Weather App',
+      summary: 'Using the MetaWeather API automatically get you local weather forecast or lookup the weather in another city. Because MetaWeather has been increasing in popularity they may require you to request access through this url:https://cors-anywhere.herokuapp.com/corsdemo ',
+      demo: 'https://fragile-sink.surge.sh/',
+      code: 'https://github.com/jpotvin-ezpz/weather-app',
+      imgSrc: './pics/weather-app.webp',
+      tagArr: ['html', 'css', 'sass', 'react'],
+    },
+    {
       title: 'Country Quiz',
       summary: 'Quiz app using the https://restcountries.eu/ API',
       demo: 'https://sable-badge.surge.sh/',
