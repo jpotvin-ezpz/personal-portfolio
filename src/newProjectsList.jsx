@@ -12,6 +12,7 @@ function ProjectsList() {
       code: 'https://github.com/jpotvin-ezpz/weather-app',
       imgSrc: './pics/weather-app.webp',
       tagArr: ['html', 'css', 'sass', 'react'],
+      id: 'weather-app',
     },
     {
       title: 'Country Quiz',

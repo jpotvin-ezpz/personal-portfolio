@@ -255,6 +255,8 @@ h2.hobby-title {
 .project p {
   color: #828282;
   margin-bottom: 1rem;
+  overflow-y: scroll;
+  max-height: 126px;
 }
 
 .img-wrapper {

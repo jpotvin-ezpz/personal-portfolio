@@ -13,7 +13,7 @@ const Hobby = ({
       alt={credit}
     />
     <h2 className="hobby-title">{title}</h2>
-    <p>{summary}</p>
+    <p className="project-summary">{summary}</p>
   </div>
 );
 

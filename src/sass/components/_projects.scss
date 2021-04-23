@@ -64,6 +64,8 @@
   p {
     color: $section-text;
     margin-bottom: 1rem;
+    overflow-y: scroll;
+    max-height: 126px;
   }
 }
 
