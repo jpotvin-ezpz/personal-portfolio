@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import profile from './pics/profile.webp';
-import file from './documents/Jacob Potvin_Resume.pdf';
+import file from './documents/Jacob-Potvin_Resume.pdf';
 
 const Header = () => (
   <div className="header">
