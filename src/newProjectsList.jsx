@@ -6,6 +6,15 @@ import { useState, useEffect, React } from 'react';
 function ProjectsList() {
   const [projects, setProjects] = useState([
     {
+      title: 'Github Jobs',
+      summary: 'Using the Github Jobs API look up a list of jobs anywhere in the world or choose from a list of popular cities. Request to the api access through this url:https://cors-anywhere.herokuapp.com/corsdemo ',
+      demo: 'https://succinct-snow.surge.sh/',
+      code: 'https://github.com/jpotvin-ezpz/github-jobs',
+      imgSrc: './pics/github-jobs.webp',
+      tagArr: ['html', 'css', 'sass', 'react', 'react-router'],
+      id: 'weather-app',
+    },
+    {
       title: 'Weather App',
       summary: 'Using the MetaWeather API automatically get you local weather forecast or lookup the weather in another city. Because MetaWeather has been increasing in popularity they may require you to request access through this url:https://cors-anywhere.herokuapp.com/corsdemo ',
       demo: 'https://fragile-sink.surge.sh/',
