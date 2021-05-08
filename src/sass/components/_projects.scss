@@ -78,19 +78,10 @@
   background-size: contain;
   border-radius: 12px;
 }
-
-#edie,
-#checkout,
-#gallery,
-#blog,
-#crew,
-#consult,
-#creatives {
-  background-size: cover;
-}
-
-#creatives {
-  background-position: top;
+#github-jobs {
+  .img-wrapper {
+    background-size: contain;
+  }
 }
 
 .project-title {
