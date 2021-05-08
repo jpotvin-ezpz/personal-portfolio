@@ -11,7 +11,7 @@ function ProjectsList() {
       demo: 'https://succinct-snow.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/github-jobs',
       imgSrc: './pics/github-jobs.webp',
-      tagArr: ['html', 'css', 'sass', 'react', 'react-router'],
+      tagArr: ['html', 'css', 'sass', 'react'],
       id: 'weather-app',
     },
     {
