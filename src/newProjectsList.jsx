@@ -12,7 +12,7 @@ function ProjectsList() {
       code: 'https://github.com/jpotvin-ezpz/github-jobs',
       imgSrc: './pics/github-jobs.webp',
       tagArr: ['html', 'css', 'sass', 'react'],
-      id: 'weather-app',
+      id: 'github-jobs',
     },
     {
       title: 'Weather App',
