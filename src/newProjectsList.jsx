@@ -11,7 +11,7 @@ function ProjectsList() {
       demo: 'https://succinct-snow.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/github-jobs',
       imgSrc: './pics/github-jobs.webp',
-      tagArr: ['sass', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'github-jobs',
     },
     {
@@ -20,7 +20,7 @@ function ProjectsList() {
       demo: 'https://fragile-sink.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/weather-app',
       imgSrc: './pics/weather-app.webp',
-      tagArr: ['sass', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'weather-app',
     },
     {
@@ -29,7 +29,7 @@ function ProjectsList() {
       demo: 'https://sable-badge.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/quiz-app',
       imgSrc: './pics/country-quiz.webp',
-      tagArr: ['sass', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'country-quiz',
     },
     {
@@ -38,7 +38,7 @@ function ProjectsList() {
       demo: 'https://delirious-disgust.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/todo-app',
       imgSrc: './pics/todo-app.webp',
-      tagArr: ['sass', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'todo-app',
     },
     {
@@ -47,7 +47,7 @@ function ProjectsList() {
       demo: 'https://vulgar-word.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/windbnb',
       imgSrc: './pics/windbnb.webp',
-      tagArr: ['sass', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'windbnb',
     },
     {
@@ -88,9 +88,9 @@ function ProjectsList() {
     },
     {
       title: 'Random Quote Machine',
-      summary: "Need some inspiration? Click 'new quote' and get some fresh wisdom! Made as a submission for the FreeCodeCamp frontend libraries certificate.",
-      demo: 'https://useless-cause.surge.sh',
-      code: 'https://github.com/jpotvin-ezpz/random-quote-machine',
+      summary: "Need some inspiration? Click 'new quote' and get some fresh wisdom! Made as a submission for the devChallenges Frontend Developer Certificate.",
+      demo: 'https://energetic-beds.surge.sh/',
+      code: 'https://github.com/jpotvin-ezpz/quote-generator-with-features',
       imgSrc: './pics/random-quote.webp',
       tagArr: ['javascript', 'react'],
       id: 'quote',
@@ -231,7 +231,7 @@ function ProjectsList() {
         btn.classList.add('active');
         break;
       case 'html-btn':
-        visProjects = projects.filter((project) => !(project.tagArr.includes('html')));
+        visProjects = projects.filter((project) => (project.tagArr.includes('html')));
         setFilteredProjects(visProjects);
         btn.classList.add('active');
         break;
