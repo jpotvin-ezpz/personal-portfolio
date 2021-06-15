@@ -11,7 +11,7 @@ function ProjectsList() {
       demo: 'https://succinct-snow.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/github-jobs',
       imgSrc: './pics/github-jobs.webp',
-      tagArr: ['html', 'css', 'sass', 'react'],
+      tagArr: ['sass', 'react'],
       id: 'github-jobs',
     },
     {
@@ -20,7 +20,7 @@ function ProjectsList() {
       demo: 'https://fragile-sink.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/weather-app',
       imgSrc: './pics/weather-app.webp',
-      tagArr: ['html', 'css', 'sass', 'react'],
+      tagArr: ['sass', 'react'],
       id: 'weather-app',
     },
     {
@@ -29,7 +29,7 @@ function ProjectsList() {
       demo: 'https://sable-badge.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/quiz-app',
       imgSrc: './pics/country-quiz.webp',
-      tagArr: ['html', 'css', 'sass', 'react'],
+      tagArr: ['sass', 'react'],
       id: 'country-quiz',
     },
     {
@@ -38,7 +38,7 @@ function ProjectsList() {
       demo: 'https://delirious-disgust.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/todo-app',
       imgSrc: './pics/todo-app.webp',
-      tagArr: ['html', 'css', 'sass', 'react'],
+      tagArr: ['sass', 'react'],
       id: 'todo-app',
     },
     {
@@ -47,7 +47,7 @@ function ProjectsList() {
       demo: 'https://vulgar-word.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/windbnb',
       imgSrc: './pics/windbnb.webp',
-      tagArr: ['html', 'css', 'sass', 'react'],
+      tagArr: ['sass', 'react'],
       id: 'windbnb',
     },
     {
@@ -56,7 +56,7 @@ function ProjectsList() {
       demo: 'https://codepen.io/jpotvin/pen/qBqgqdw',
       code: 'https://codepen.io/jpotvin/pen/qBqgqdw',
       imgSrc: './pics/pomodoro.webp',
-      tagArr: ['html', 'css', 'javascript', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'pomodoro',
     },
     {
@@ -65,7 +65,7 @@ function ProjectsList() {
       demo: 'https://codepen.io/jpotvin/pen/QWGzyrv',
       code: 'https://codepen.io/jpotvin/pen/QWGzyrv',
       imgSrc: './pics/calculator.webp',
-      tagArr: ['html', 'css', 'javascript', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'calc',
     },
     {
@@ -74,7 +74,7 @@ function ProjectsList() {
       demo: 'https://innocent-name.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/drum-machine',
       imgSrc: './pics/drum-machine.webp',
-      tagArr: ['html', 'css', 'javascript', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'drums',
     },
     {
@@ -83,7 +83,7 @@ function ProjectsList() {
       demo: 'https://diligent-body.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/markdown-previewer',
       imgSrc: './pics/markdown-previewer.webp',
-      tagArr: ['html', 'css', 'javascript', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'previewer',
     },
     {
@@ -92,7 +92,7 @@ function ProjectsList() {
       demo: 'https://useless-cause.surge.sh',
       code: 'https://github.com/jpotvin-ezpz/random-quote-machine',
       imgSrc: './pics/random-quote.webp',
-      tagArr: ['html', 'css', 'javascript', 'react'],
+      tagArr: ['javascript', 'react'],
       id: 'quote',
     },
     {
@@ -164,7 +164,7 @@ function ProjectsList() {
       demo: 'https://gusty-reward.surge.sh/',
       code: 'https://github.com/jpotvin-ezpz/website-for-creatives',
       imgSrc: './pics/creatives-website.webp',
-      tagArr: ['html', 'css', 'javascript'],
+      tagArr: ['javascript'],
       id: 'creatives',
     },
   ]);
