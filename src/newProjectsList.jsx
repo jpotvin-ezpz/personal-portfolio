@@ -178,12 +178,18 @@ function ProjectsList() {
           key={project.id}
           id={project.id}
         >
-          <div
-            className="img-wrapper"
-            style={{
-              backgroundImage: `url(${project.imgSrc})`,
-            }}
-          />
+          <a
+            href={project.demo}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div
+              className="img-wrapper"
+              style={{
+                backgroundImage: `url(${project.imgSrc})`,
+              }}
+            />
+          </a>
           <ul className="tags">
             { project.tagArr.map((tag) => (
               <li key={tag}>
