@@ -231,7 +231,7 @@ function ProjectsList() {
         btn.classList.add('active');
         break;
       case 'html-btn':
-        visProjects = projects.filter((project) => !(project.tagArr.includes('javascript')));
+        visProjects = projects.filter((project) => !(project.tagArr.includes('html')));
         setFilteredProjects(visProjects);
         btn.classList.add('active');
         break;
