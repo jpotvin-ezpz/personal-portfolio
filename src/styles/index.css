@@ -1,97 +1,82 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
-  background: #f2f2f2;
-}
+  background: #f2f2f2; }
 
 .main {
   display: flex;
   flex-direction: column;
   max-width: 1040px;
-  margin: 2em auto;
-}
+  margin: 2em auto; }
 
-.filter-wrapper, .header,
+.header,
 .hobbies,
 .skills,
-.certs {
+.certs, .filter-wrapper {
   background: #ffffff;
   max-width: 900px;
   width: 100%;
   border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   padding: 1.2rem;
-  margin: 0.6em auto;
-}
+  margin: 0.6em auto; }
 
 .header h1,
 .hobbies h1,
 .skills h1,
 .certs h1 {
   font-size: 1.6rem;
-  color: #4f4f4f;
-}
+  color: #4f4f4f; }
 .header h2,
 .hobbies h2,
 .skills h2,
 .certs h2 {
   font-size: 0.9rem;
-  color: #828282;
-}
+  color: #828282; }
 .header p,
 .hobbies p,
 .skills p,
 .certs p {
-  color: #828282;
-}
+  color: #828282; }
 .header img,
 .hobbies img,
 .skills img,
 .certs img {
   width: 200px;
-  height: auto;
-}
+  height: auto; }
 .header ul li,
 .hobbies ul li,
 .skills ul li,
 .certs ul li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 .certs {
-  margin-top: 4em;
-}
+  margin-top: 4em; }
 
 .certifications {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 24px;
-  height: auto;
-}
+  height: auto; }
 
 .title-logo--wrapper {
   margin: 1.2rem auto;
-  display: flex;
-}
-.title-logo--wrapper img {
-  width: 50px;
-  height: 50px;
-  border-radius: 8px;
-}
+  display: flex; }
+  .title-logo--wrapper img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px; }
 
 .cert-issue--wrapper {
-  margin-left: 0.5rem;
-}
-.cert-issue--wrapper h2 {
-  color: #333333;
-  font-size: 1rem;
-}
+  margin-left: 0.5rem; }
+  .cert-issue--wrapper h2 {
+    color: #333333;
+    font-size: 1rem; }
 
 a.credential-link {
   border-radius: 12px;
@@ -106,46 +91,37 @@ a.credential-link {
   margin: 0 auto;
   text-decoration: none;
   font-size: 1rem;
-  transition: all 0.5s ease;
-}
+  transition: all 0.5s ease; }
 
 a.credential-link:hover {
   background: #2f80ed;
-  color: white;
-}
+  color: white; }
 
 .header {
-  display: flex;
-}
+  display: flex; }
 
 .profile-pic {
   border-radius: 12px;
   object-fit: cover;
-  object-position: center;
-}
+  object-position: center; }
 
 .info-summary {
-  margin-left: 4em;
-}
+  margin-left: 4em; }
 
 .personal-info--wrapper {
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .name-resume {
-  margin-bottom: 0.2em;
-}
-.name-resume a {
-  display: flex;
-  align-items: center;
-  color: #4f4f4f;
-  text-decoration: none;
-}
+  margin-bottom: 0.2em; }
+  .name-resume a {
+    display: flex;
+    align-items: center;
+    color: #4f4f4f;
+    text-decoration: none; }
 
 a:hover {
-  color: #2f80ed;
-}
+  color: #2f80ed; }
 
 .contact-info > * {
   font-style: normal;
@@ -154,51 +130,42 @@ a:hover {
   text-decoration: none;
   color: #4f4f4f;
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
 
 .contact-info > *:hover {
-  color: #2f80ed;
-}
+  color: #2f80ed; }
 
 .social-links {
-  margin: 0 10px;
-}
+  margin: 0 10px; }
 
 .summary {
-  margin-top: 0.4em;
-}
+  margin-top: 0.4em; }
 
 .hobby-wrapper {
   margin-top: 1.2rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 6px;
-}
+  grid-gap: 6px; }
 
 .hobby-img {
   width: 275px;
   height: 125px;
   background-position: center;
   background-size: cover;
-  border-radius: 12px;
-}
+  border-radius: 12px; }
 
 h2.hobby-title {
   color: #333;
   font-size: 1.2rem;
-  margin: 1.2em auto 0.5em auto;
-}
+  margin: 1.2em auto 0.5em auto; }
 
 .filter-wrapper {
-  margin-bottom: 1rem;
-}
+  margin-bottom: 1rem; }
 
 .project-filter--header {
   margin-bottom: 0.6rem;
   color: #4f4f4f;
-  font-size: 1.6rem;
-}
+  font-size: 1.6rem; }
 
 .filter-btn {
   cursor: pointer;
@@ -210,20 +177,17 @@ h2.hobby-title {
   border-radius: 12px;
   background: #fff;
   font-size: 1.1rem;
-  transition: all 0.5s ease;
-}
+  transition: all 0.5s ease; }
 
 .filter-btn:hover {
   background: #2f80ed;
   border: none;
-  color: white;
-}
+  color: white; }
 
 .active {
   background: #2f80ed;
   border: none;
-  color: white;
-}
+  color: white; }
 
 .projects-wrapper {
   display: grid;
@@ -231,8 +195,7 @@ h2.hobby-title {
   grid-gap: 12px;
   margin: 0 auto;
   width: 100%;
-  max-width: 900px;
-}
+  max-width: 900px; }
 
 .project {
   position: relative;
@@ -241,23 +204,19 @@ h2.hobby-title {
   padding: 1em;
   border-radius: 12px;
   grid-column: span 1;
-  background: #fff;
-}
-.project ul {
-  display: flex;
-  margin-top: 0.5rem;
-}
-.project li {
-  list-style-type: none;
-  color: #4f4f4f;
-  margin: 0 0.25rem;
-}
-.project p {
-  color: #828282;
-  margin-bottom: 1rem;
-  overflow-y: scroll;
-  max-height: 126px;
-}
+  background: #fff; }
+  .project ul {
+    display: flex;
+    margin-top: 0.5rem; }
+  .project li {
+    list-style-type: none;
+    color: #4f4f4f;
+    margin: 0 0.25rem; }
+  .project p {
+    color: #828282;
+    margin-bottom: 1rem;
+    overflow-y: scroll;
+    max-height: 126px; }
 
 .img-wrapper {
   width: 200px;
@@ -266,26 +225,22 @@ h2.hobby-title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 12px;
-}
+  border-radius: 12px; }
 
 #github-jobs .img-wrapper {
-  background-size: contain;
-}
+  background-size: contain; }
 
 .project-title {
   font-size: 1.6rem;
   color: #333333;
-  margin: 1rem 0;
-}
+  margin: 1rem 0; }
 
 .demo-wrapper {
   position: absolute;
   bottom: 1em;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
+  align-items: center; }
 
 .demo-wrapper > a {
   display: flex;
@@ -295,249 +250,202 @@ h2.hobby-title {
   align-items: center;
   border-radius: 12px;
   text-decoration: none;
-  transition: all 0.5s ease;
-}
+  transition: all 0.5s ease; }
 
 .demo-wrapper .demo {
   margin-right: 10px;
   background: #2f80ed;
   border: 1px solid #2f80ed;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .demo-wrapper .demo:hover {
   background: #ffffff;
-  color: #2f80ed;
-}
+  color: #2f80ed; }
 
 .demo-wrapper .code {
   border: 1px solid #2f80ed;
-  color: #2f80ed;
-}
+  color: #2f80ed; }
 
 .demo-wrapper .code:hover {
   background: #2f80ed;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .skills-header {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .skills-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0.8em;
-  margin: 0.5em 0;
-}
+  margin: 0.5em 0; }
 
 .skill {
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-.skill p {
-  grid-column: 1/2;
-  color: #4f4f4f;
-  font-size: 1rem;
-}
+  grid-template-columns: 1fr 1fr 1fr 1fr; }
+  .skill p {
+    grid-column: 1 / 2;
+    color: #4f4f4f;
+    font-size: 1rem; }
 
 .bar {
-  grid-column: 2/span 3;
+  grid-column: 2 / span 3;
   background: #c4c4c4;
   width: 90%;
   height: 10px;
-  border-radius: 12px;
-}
-.bar .progress {
-  background: #2f80ed;
-  border-radius: inherit;
-  width: 50%;
-  height: 10px;
-}
+  border-radius: 12px; }
+  .bar .progress {
+    background: #2f80ed;
+    border-radius: inherit;
+    width: 50%;
+    height: 10px; }
 
 .skill-html .progress {
-  width: 95%;
-}
+  width: 95%; }
 
 .skill-css .progress {
-  width: 90%;
-}
+  width: 90%; }
 
 .skill-scss .progress {
-  width: 80%;
-}
+  width: 80%; }
 
 .skill-js .progress {
-  width: 80%;
-}
+  width: 80%; }
+
+.skill-gb .progress {
+  width: 85%; }
 
 .skill-react .progress {
-  width: 55%;
-}
+  width: 55%; }
 
 @media only screen and (min-width: 320px) and (max-width: 599px) {
   .header,
-.hobbies,
-.skills,
-.certs, .filter-wrapper {
+  .hobbies,
+  .skills,
+  .certs, .filter-wrapper {
     margin: 0.6em auto;
     width: 90%;
-    padding: 0.5rem;
-  }
+    padding: 0.5rem; }
 
   .header {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-  }
+    align-items: center; }
 
   img.profile-pic {
     width: 90%;
-    margin: 0.8em auto;
-  }
+    margin: 0.8em auto; }
 
   .info-summary {
     display: flex;
     flex-direction: column;
     width: 90%;
-    margin: 1em auto;
-  }
+    margin: 1em auto; }
 
   .personal-info--wrapper {
     flex-direction: column;
-    margin-bottom: 0.5em;
-  }
+    margin-bottom: 0.5em; }
 
   .social-links {
-    margin: 0 0 0.4em 0;
-  }
+    margin: 0 0 0.4em 0; }
 
   .skills-header {
     width: 90%;
-    margin: 0 auto;
-  }
+    margin: 0 auto; }
 
   .skills-list {
     grid-template-columns: 1fr;
     grid-gap: 0.9em;
     width: 90%;
-    margin: 1em auto;
-  }
+    margin: 1em auto; }
 
   .skill p {
-    width: 9ch;
-  }
+    width: 9ch; }
 
   .hobby-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    align-items: center; }
 
   .hobbies-title {
-    margin-left: 0.5em;
-  }
+    margin-left: 0.5em; }
 
   h2.hobby-title {
-    margin: 0.2em auto 0 0.5em;
-  }
+    margin: 0.2em auto 0 0.5em; }
 
   .hobby-img {
-    margin-left: 0.5em;
-  }
+    margin-left: 0.5em; }
 
   .hobby p {
-    margin: 0 auto 2em 0.5em;
-  }
+    margin: 0 auto 2em 0.5em; }
 
   .project-filter--header {
-    margin-left: 0.5em;
-  }
+    margin-left: 0.5em; }
 
   .btn-wrapper {
-    margin-left: 0.5em;
-  }
+    margin-left: 0.5em; }
 
   .filter-btn {
-    margin: 5px;
-  }
+    margin: 5px; }
 
   .projects-wrapper {
     display: flex;
     flex-direction: column;
-    place-items: center;
-  }
+    place-items: center; }
 
   .project {
-    width: 90%;
-  }
+    width: 90%; }
 
   .demo-wrapper {
-    left: 10%;
-  }
+    left: 10%; }
 
   .certs h1 {
-    margin-left: 0.5em;
-  }
+    margin-left: 0.5em; }
 
   .certifications {
     display: flex;
     flex-direction: column;
-    margin: 0.5em;
-  }
-}
+    margin: 0.5em; } }
 @media only screen and (min-width: 600px) and (max-width: 899px) {
   .header,
-.hobbies,
-.skills,
-.certs, .filter-wrapper {
+  .hobbies,
+  .skills,
+  .certs, .filter-wrapper {
     margin: 0.6em auto;
     width: 90%;
-    padding: 0.5rem;
-  }
+    padding: 0.5rem; }
 
   .certs h1 {
-    margin-left: 0.5em;
-  }
+    margin-left: 0.5em; }
 
   .certifications {
     display: flex;
     flex-direction: column;
-    margin: 0.5em;
-  }
+    margin: 0.5em; }
 
   .title-logo--wrapper {
-    justify-content: center;
-  }
+    justify-content: center; }
 
   .hobby-wrapper {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    align-items: center; }
 
   .hobbies-title {
-    margin-left: 0.5em;
-  }
+    margin-left: 0.5em; }
 
   .hobby-img {
-    width: 500px;
-  }
+    width: 500px; }
 
   h2.hobby-title {
-    margin: 0.2em auto 0 0.5rem;
-  }
+    margin: 0.2em auto 0 0.5rem; }
 
   .hobby p {
-    margin: 0 auto 2em 0.5rem;
-  }
+    margin: 0 auto 2em 0.5rem; }
 
   .projects-wrapper {
     grid-template-columns: repeat(auto-fit, minmax(292px, 1fr));
     width: 90%;
-    justify-items: center;
-  }
-}
+    justify-items: center; } }
 
 /*# sourceMappingURL=index.css.map */
